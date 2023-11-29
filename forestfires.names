@@ -11,7 +11,7 @@ Citation Request:
 1. Title: Forest Fires
 
 2. Sources
-   Created by: Paulo Cortez and Aníbal Morais (Univ. Minho) @ 2007
+   Created by: Paulo Cortez and Anï¿½bal Morais (Univ. Minho) @ 2007
    
 3. Past Usage:
 
@@ -47,20 +47,29 @@ Citation Request:
 
    For more information, read [Cortez and Morais, 2007].
 
-   1. X - x-axis spatial coordinate within the Montesinho park map: 1 to 9
-   2. Y - y-axis spatial coordinate within the Montesinho park map: 2 to 9
-   3. month - month of the year: "jan" to "dec" 
-   4. day - day of the week: "mon" to "sun"
-   5. FFMC - FFMC index from the FWI system: 18.7 to 96.20
-   6. DMC - DMC index from the FWI system: 1.1 to 291.3 
-   7. DC - DC index from the FWI system: 7.9 to 860.6 
-   8. ISI - ISI index from the FWI system: 0.0 to 56.10
-   9. temp - temperature in Celsius degrees: 2.2 to 33.30
-   10. RH - relative humidity in %: 15.0 to 100
-   11. wind - wind speed in km/h: 0.40 to 9.40 
-   12. rain - outside rain in mm/m2 : 0.0 to 6.4 
-   13. area - the burned area of the forest (in ha): 0.00 to 1090.84 
-   (this output variable is very skewed towards 0.0, thus it may make
-    sense to model with the logarithm transform). 
+
+      X - x-axis spatial coordinate: This represents a spatial coordinate on the x-axis within the Montesinho park map. The values range from 1 to 9.
+
+      Y - y-axis spatial coordinate: This represents a spatial coordinate on the y-axis within the Montesinho park map. The values range from 2 to 9.
+
+      day: This represents the day of the week and is encoded with three-letter abbreviations, ranging from "mon" to "sun."
+
+      FFMC - Fine Fuel Moisture Code: This is an index from the Fire Weather Index (FWI) system, representing the moisture content of fine fuels. The values range from 18.7 to 96.20.
+
+      DMC - Duff Moisture Code: Another index from the FWI system, representing the moisture content of decomposed organic material. The values range from 1.1 to 291.3.
+
+      DC - Drought Code: This is part of the FWI system and represents the drought effect on deep, compact organic layers. The values range from 7.9 to 860.6.
+
+      ISI - Initial Spread Index: This is an index from the FWI system, representing the expected rate of fire spread. The values range from 0.0 to 56.10.
+
+      temp - Temperature: This represents the temperature in Celsius degrees. The values range from 2.2 to 33.30.
+
+      RH - Relative Humidity: This represents the relative humidity in percentage (%). The values range from 15.0 to 100.
+
+      wind - Wind Speed: This represents the wind speed in kilometers per hour (km/h). The values range from 0.40 to 9.40.
+
+      rain - Outside Rain: This represents the amount of rain in millimeters per square meter (mm/m2). The values range from 0.0 to 6.4.
+
+      area - Burned Area: This is the output variable and represents the burned area of the forest in hectares (ha). The values range from 0.00 to 1090.84. The note suggests that this variable is highly skewed towards 0.0, and it may be beneficial to model it with a logarithmic transform.
 
 8. Missing Attribute Values: None
